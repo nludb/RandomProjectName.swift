@@ -14,10 +14,10 @@ let name = String.randomProjectName()
 print(name) // mystic-sandwich
 
 let name_with_suffix = String.randomProjectName(4)
-print(name) // flying-cereal-d34f
+print(name_with_suffix) // flying-cereal-d34f
 
 let name_with_underscore = String.randomProjectName(separatedBy: "_")
-print(name) // mysterious_basket
+print(name_with_underscore) // mysterious_basket
 ```
 ## Contributing
 
@@ -27,7 +27,7 @@ We prefer word additions that are amusing and will reject PRs with words that ma
 
 ## Installation
 
-- Add `.package(url: "https://github.com/nludb/RandomProjectName.git", from: "1.0.0")` to your `Package.swift` file's `dependencies`.
+- Add `.package(url: "https://github.com/nludb/RandomProjectName.swift", from: "1.0.0")` to your `Package.swift` file's `dependencies`.
 - Update your packages using `$ swift package update`.
 
 ## Special Thanks
